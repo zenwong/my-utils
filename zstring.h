@@ -119,6 +119,7 @@ char **split(char *str, char delimiter) {
   return tempStoreWord;
 }
 
+// got this from Pádraig Brady 2008
 extern char* string_replace (const char* src, const char* find, const char* replacement);
 extern char* string_replace_n (const char* src, const char* find, const char* replacement, size_t n);
 
